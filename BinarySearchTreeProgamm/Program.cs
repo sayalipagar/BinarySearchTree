@@ -10,6 +10,8 @@
             binaryTree.InsertData(90);
             binaryTree.Display(binaryTree.GetRoot());
             Console.WriteLine("\ncount of element in binary search tree is: " + binaryTree.GetSize());
+            bool result = binaryTree.SearchTree(90, binaryTree.GetRoot());
+            Console.WriteLine(result);
         }
     }
 }

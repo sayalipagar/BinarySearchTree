@@ -65,5 +65,9 @@ namespace BinarySearchTreeProgamm
                 Display(node.rightNode);
             }
         }
+        public int GetSize()
+        {
+            return count;
+        }
     }
 }
